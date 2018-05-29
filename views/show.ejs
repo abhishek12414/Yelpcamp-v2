@@ -1,0 +1,13 @@
+<% include partials/header %>
+
+<a href="/campgrounds">Back to home</a>
+
+<h1>About <%= campground.name %> </h1>
+
+<div>
+    <h1> <%= campground.name %> </h1>
+    <img  width=300px src=" <%= campground.image %> " alt=" <%= campground.name %>">
+    <p> <%= campground.description %> </p>
+</div>
+
+<% include partials/footer %>
